@@ -1,0 +1,27 @@
+library bloc_firebase_auth_kit;
+
+export 'src/core/constants/auth_constants.dart';
+export 'src/core/di/service_locator.dart';
+export 'src/core/error/exceptions.dart';
+// Core
+export 'src/core/error/failures.dart';
+export 'src/data/datasources/auth_local_datasource.dart';
+export 'src/data/datasources/auth_remote_datasource.dart';
+export 'src/data/models/user_model.dart';
+// Data
+export 'src/data/repositories/firebase_auth_repository.dart';
+// Domain
+export 'src/domain/entities/user_entity.dart';
+export 'src/domain/repositories/auth_repository.dart';
+export 'src/domain/usecases/get_current_user.dart';
+export 'src/domain/usecases/sign_in_with_email.dart';
+export 'src/domain/usecases/sign_in_with_facebook.dart';
+export 'src/domain/usecases/sign_in_with_google.dart';
+export 'src/domain/usecases/sign_out.dart';
+// Presentation
+export 'src/presentation/bloc/auth_bloc.dart';
+export 'src/presentation/bloc/auth_event.dart';
+export 'src/presentation/bloc/auth_state.dart';
+export 'src/presentation/widgets/auth_wrapper.dart';
+export 'src/presentation/widgets/sign_in_form.dart';
+export 'src/presentation/widgets/social_sign_in_buttons.dart';

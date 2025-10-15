@@ -1,0 +1,35 @@
+name: example
+description: A minimal example demonstrating how to use bloc_firebase_auth_kit.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  bloc_firebase_auth_kit:
+    path: ../
+  barcode_widget: ^2.0.4
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  firebase_auth: ^6.1.0
+  firebase_core: ^4.1.1
+  firebase_messaging: ^16.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_facebook_auth: ^7.1.1
+  flutter_signin_button: ^2.0.0
+  get_it: ^7.6.4
+  go_router: ^13.2.0
+  google_sign_in: ^6.1.0
+  google_sign_in_dartio: ^0.3.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
